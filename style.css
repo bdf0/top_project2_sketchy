@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+div {
+    margin: 0;
+}
+
+.pixel {
+    display: inline-block;
+    background: #c66;
+    box-sizing: border-box;
+    margin-top: -3px;
+}
+
+.marked {
+    background: #000;
+}
+
+#sketch {
+    text-align: center;
+    margin-top: 5%;
+}
