@@ -1,23 +1,71 @@
 body {
     margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 div {
     margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 .pixel {
     display: inline-block;
-    background: #c66;
-    box-sizing: border-box;
-    margin-top: -3px;
+    vertical-align: top;
 }
 
 .marked {
-    background: #000;
+
+}
+
+.unmarked {
+
 }
 
 #sketch {
     text-align: center;
     margin-top: 5%;
+}
+
+.bcolor, .icolor {
+    display: inline-block;
+    height: 50px; width: 50px;
+    border: 1px solid #ccc;
+}
+
+.red {
+    background: red;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.purple {
+    background: purple;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.black {
+    background: black;
+}
+
+.white {
+    background: white;
 }
